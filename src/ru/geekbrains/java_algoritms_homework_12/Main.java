@@ -47,7 +47,6 @@ public class Main {
         System.arraycopy(arr2, 0, arr, HALF, HALF);
 
         System.out.println(System.currentTimeMillis() - a); // Измерение времени и подсчёт разницы между началом и концом процесса
-
     }
 
     static Runnable arrayCalculate(float[] arr) { // Метод заполнения массива по формуле
